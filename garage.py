@@ -27,6 +27,7 @@ class Garage:
         self.parking_spaces = parking_spaces
         #self.capacity = capacity
         pass  # Initialize Garage properties
+        #test
 
     def take_Ticket(self):        
         while True:
@@ -65,7 +66,7 @@ def main():
     pass  # Runner code to interact with the parking lot system
 
 parking = Garage()
-parking.take_ticket()
+parking.take_Ticket()
 
 if __name__ == "__main__":
     main()
